@@ -1,0 +1,24 @@
+
+/* Class = "UIButton"; normalTitle = "127.0.0.1"; ObjectID = "Cro-jt-aS9"; */
+"Cro-jt-aS9.normalTitle" = "127.0.0.1";
+
+/* Class = "UILabel"; text = "network status"; ObjectID = "Efk-Lc-cRd"; */
+"Efk-Lc-cRd.text" = "статус сети";
+
+/* Class = "UIBarButtonItem"; title = "Done"; ObjectID = "HgM-BH-1NC"; */
+"HgM-BH-1NC.title" = "Готово";
+
+/* Class = "UIButton"; normalTitle = "Settings"; ObjectID = "eM6-Tb-obW"; */
+"eM6-Tb-obW.normalTitle" = "Настройки";
+
+/* Class = "UIBarButtonItem"; title = "Done"; ObjectID = "fZO-pv-ftw"; */
+"fZO-pv-ftw.title" = "Готово";
+
+/* Class = "UIButton"; normalTitle = "Account"; ObjectID = "jFS-jy-b0B"; */
+"jFS-jy-b0B.normalTitle" = "Аккаунт";
+
+/* Class = "UIButton"; normalTitle = "Select VPN server"; ObjectID = "ldq-5I-9GV"; */
+"ldq-5I-9GV.normalTitle" = "Выберите сервер";
+
+/* Class = "UIBarButtonItem"; title = "Done"; ObjectID = "xYc-2U-8Uk"; */
+"xYc-2U-8Uk.title" = "Готово";

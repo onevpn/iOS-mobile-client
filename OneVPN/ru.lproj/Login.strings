@@ -1,0 +1,49 @@
+
+/* Class = "UIButton"; normalTitle = "Sign Up"; ObjectID = "GLM-Ab-B7x"; */
+"GLM-Ab-B7x.normalTitle" = "Регистрация";
+
+/* Class = "UIButton"; normalTitle = "Try fo free"; ObjectID = "HOr-WV-ebB"; */
+"HOr-WV-ebB.normalTitle" = "🆓 Бесплатный период";
+
+/* Class = "UITextField"; placeholder = "E-Mail"; ObjectID = "HWj-PT-smm"; */
+"HWj-PT-smm.placeholder" = "E-Mail";
+
+/* Class = "UIButton"; normalTitle = "Log in"; ObjectID = "K1p-da-Too"; */
+"K1p-da-Too.normalTitle" = "👤 Войти";
+
+/* Class = "UIButton"; normalTitle = "Log In"; ObjectID = "KaW-3Z-562"; */
+"KaW-3Z-562.normalTitle" = "Войти";
+
+/* Class = "UIButton"; normalTitle = "Disable auto-secure"; ObjectID = "WwF-kn-HZx"; */
+"WwF-kn-HZx.normalTitle" = "Отключить автозащиту";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "byx-Wj-cvD"; */
+"byx-Wj-cvD.placeholder" = "Пароль";
+
+/* Class = "UIButton"; normalTitle = "Continue"; ObjectID = "hGG-4r-4Mm"; */
+"hGG-4r-4Mm.normalTitle" = "Продолжить";
+
+/* Class = "UIButton"; normalTitle = "Enable auto-secure"; ObjectID = "ktJ-JO-wMs"; */
+"ktJ-JO-wMs.normalTitle" = "Включить автозащиту";
+
+/* Class = "UILabel"; text = "Protect your privacy or change location. 
+
+Our free users get 500 Mb of traffic every month. We care about you ❤️."; ObjectID = "ouA-ay-Cdv"; */
+"ouA-ay-Cdv.text" = "Защитите свои данные или смените местоположение.
+
+Наши пользователи триальных аккаунтов получают по 500 Мб трафика ежемесячно ❤️";
+
+/* Class = "UILabel"; text = "Enable auto-secure, to let us care about you and connect to VPN on any unsecure Wi-Fi"; ObjectID = "qjW-0r-jnf"; */
+"qjW-0r-jnf.text" = "Включите автозащиту, чтобы мы могли о вас позаботиться и подключаться к ВПН-серверам автоматически";
+
+/* Class = "UILabel"; text = "You will be asked to add VPN profile, please confirm. 
+
+This option is required to continue"; ObjectID = "raB-pR-XVU"; */
+"raB-pR-XVU.text" = "Вам будет предложено добавить ВПН-профиль. Пожалуйста, подтвердите.
+
+Это условие необходимо выполнить для продолжения";
+
+/* Class = "UITextField"; placeholder = "E-mail"; ObjectID = "yTc-5u-03w"; */
+"yTc-5u-03w.placeholder" = "E-mail";
+
+"woK-ZJ-Q2z.normalTitle" = "Восстановление пароля";

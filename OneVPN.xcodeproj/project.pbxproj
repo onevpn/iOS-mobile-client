@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		111F09F61E7FF6D9009B8A24 /* LockVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 111F09F51E7FF6D9009B8A24 /* LockVC.xib */; };
+		11270A9C1EF80DA500D80EC0 /* Analytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11270A9B1EF80DA500D80EC0 /* Analytics.swift */; };
+		115619131E7C32190034004F /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 115619151E7C32190034004F /* Login.storyboard */; };
+		11B7A61E1E41F1C500ECA9C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B7A61D1E41F1C500ECA9C0 /* AppDelegate.swift */; };
+		11B7A6201E41F1C500ECA9C0 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B7A61F1E41F1C500ECA9C0 /* MainVC.swift */; };
+		11B7A6231E41F1C500ECA9C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11B7A6211E41F1C500ECA9C0 /* Main.storyboard */; };
+		11B7A6251E41F1C500ECA9C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11B7A6241E41F1C500ECA9C0 /* Assets.xcassets */; };
+		11B7A6281E41F1C500ECA9C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11B7A6261E41F1C500ECA9C0 /* LaunchScreen.storyboard */; };
+		11B7A6311E41F1D200ECA9C0 /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11B7A6301E41F1D200ECA9C0 /* NetworkExtension.framework */; };
+		11B7A6341E42027A00ECA9C0 /* AccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B7A6331E42027A00ECA9C0 /* AccountVC.swift */; };
+		11B7A6361E42028800ECA9C0 /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B7A6351E42028800ECA9C0 /* SettingsVC.swift */; };
+		11B7A6381E42199600ECA9C0 /* ServersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B7A6371E42199600ECA9C0 /* ServersVC.swift */; };
+		360A26105CE5407FDCE16450 /* Pods_OneVPN.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CC915A3012A2FA51844A030 /* Pods_OneVPN.framework */; };
+		A900148E1E46836400E5B2F1 /* ServerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A900148C1E46836400E5B2F1 /* ServerCell.swift */; };
+		A900148F1E46836400E5B2F1 /* ServerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A900148D1E46836400E5B2F1 /* ServerCell.xib */; };
+		A90014931E46889E00E5B2F1 /* Server.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90014921E46889D00E5B2F1 /* Server.swift */; };
+		A90014951E468A6900E5B2F1 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90014941E468A6900E5B2F1 /* API.swift */; };
+		A90D9A491E55C4FD00615FE6 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90D9A481E55C4FD00615FE6 /* Settings.swift */; };
+		A90D9A4B1E55CA2A00615FE6 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90D9A4A1E55CA2A00615FE6 /* Alert.swift */; };
+		A90DAA121E54ADD800296569 /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90DAA111E54ADD800296569 /* Activity.swift */; };
+		A91CD1C41E5C7B06001067C7 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91CD1C31E5C7B06001067C7 /* LoginVC.swift */; };
+		A91E1AC21E6C8E90001BF9F7 /* OneTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91E1AC11E6C8E90001BF9F7 /* OneTextField.swift */; };
+		A921348E1E65CA2100A91DE4 /* OneLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A921348D1E65CA2100A91DE4 /* OneLabel.swift */; };
+		A92F750E1E7F4088008BD7D1 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A92F75101E7F4088008BD7D1 /* Localizable.strings */; };
+		A96484201E64BF6300D2AD52 /* StartVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A964841F1E64BF6300D2AD52 /* StartVC.swift */; };
+		A97E12601E5F9FE900D14D8C /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97E125F1E5F9FE900D14D8C /* Network.swift */; };
+		A97E12621E61AC2500D14D8C /* LockVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97E12611E61AC2500D14D8C /* LockVC.swift */; };
+		A97FD97C1E660F1D00A7EDFC /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97FD97B1E660F1D00A7EDFC /* GradientView.swift */; };
+		A993C2F61E46392100A37822 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = A993C2F51E46392100A37822 /* Account.swift */; };
+		A9F5E7041E5C8FEA00503444 /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F5E7031E5C8FEA00503444 /* RegisterVC.swift */; };
+		A9F5E7061E5DC57C00503444 /* TransparentNavbarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F5E7051E5DC57C00503444 /* TransparentNavbarVC.swift */; };
+		A9F5E7081E5DFDF400503444 /* HelloAutosecureVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F5E7071E5DFDF400503444 /* HelloAutosecureVC.swift */; };
+		A9F5E70A1E5DFE1800503444 /* HelloAllowConfigVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F5E7091E5DFE1800503444 /* HelloAllowConfigVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A98D651D1E52C30200C153B7 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		111F09F51E7FF6D9009B8A24 /* LockVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LockVC.xib; sourceTree = "<group>"; };
+		11270A991EF7D28000D80EC0 /* OneVPN-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OneVPN-Bridging-Header.h"; sourceTree = "<group>"; };
+		11270A9B1EF80DA500D80EC0 /* Analytics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Analytics.swift; sourceTree = "<group>"; };
+		115619111E7C32080034004F /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main.strings; sourceTree = "<group>"; };
+		115619121E7C32080034004F /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		115619141E7C32190034004F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Login.storyboard; sourceTree = "<group>"; };
+		115619171E7C32260034004F /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Login.strings; sourceTree = "<group>"; };
+		11B7A61A1E41F1C500ECA9C0 /* OneVPN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OneVPN.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		11B7A61D1E41F1C500ECA9C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		11B7A61F1E41F1C500ECA9C0 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		11B7A6221E41F1C500ECA9C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		11B7A6241E41F1C500ECA9C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		11B7A6271E41F1C500ECA9C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		11B7A6291E41F1C500ECA9C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11B7A6301E41F1D200ECA9C0 /* NetworkExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetworkExtension.framework; path = System/Library/Frameworks/NetworkExtension.framework; sourceTree = SDKROOT; };
+		11B7A6321E41F1D200ECA9C0 /* OneVPN.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OneVPN.entitlements; sourceTree = "<group>"; };
+		11B7A6331E42027A00ECA9C0 /* AccountVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountVC.swift; sourceTree = "<group>"; };
+		11B7A6351E42028800ECA9C0 /* SettingsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
+		11B7A6371E42199600ECA9C0 /* ServersVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServersVC.swift; sourceTree = "<group>"; };
+		6CC915A3012A2FA51844A030 /* Pods_OneVPN.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OneVPN.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D571BB00DF551882A680351 /* Pods-OneVPN.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneVPN.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OneVPN/Pods-OneVPN.debug.xcconfig"; sourceTree = "<group>"; };
+		A900148C1E46836400E5B2F1 /* ServerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServerCell.swift; sourceTree = "<group>"; };
+		A900148D1E46836400E5B2F1 /* ServerCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ServerCell.xib; sourceTree = "<group>"; };
+		A90014921E46889D00E5B2F1 /* Server.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Server.swift; sourceTree = "<group>"; };
+		A90014941E468A6900E5B2F1 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		A90D9A481E55C4FD00615FE6 /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		A90D9A4A1E55CA2A00615FE6 /* Alert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		A90DAA111E54ADD800296569 /* Activity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
+		A91CD1C31E5C7B06001067C7 /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		A91E1AC11E6C8E90001BF9F7 /* OneTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OneTextField.swift; sourceTree = "<group>"; };
+		A921348D1E65CA2100A91DE4 /* OneLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OneLabel.swift; sourceTree = "<group>"; };
+		A92F750F1E7F4088008BD7D1 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A964841F1E64BF6300D2AD52 /* StartVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartVC.swift; sourceTree = "<group>"; };
+		A97E125F1E5F9FE900D14D8C /* Network.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		A97E12611E61AC2500D14D8C /* LockVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LockVC.swift; sourceTree = "<group>"; };
+		A97FD97B1E660F1D00A7EDFC /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		A993C2F51E46392100A37822 /* Account.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		A9F5E7031E5C8FEA00503444 /* RegisterVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
+		A9F5E7051E5DC57C00503444 /* TransparentNavbarVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransparentNavbarVC.swift; sourceTree = "<group>"; };
+		A9F5E7071E5DFDF400503444 /* HelloAutosecureVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelloAutosecureVC.swift; sourceTree = "<group>"; };
+		A9F5E7091E5DFE1800503444 /* HelloAllowConfigVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelloAllowConfigVC.swift; sourceTree = "<group>"; };
+		AECCAC5CB41A04596E3F9FFD /* Pods-OneVPN.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneVPN.release.xcconfig"; path = "Pods/Target Support Files/Pods-OneVPN/Pods-OneVPN.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11B7A6171E41F1C500ECA9C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11B7A6311E41F1D200ECA9C0 /* NetworkExtension.framework in Frameworks */,
+				360A26105CE5407FDCE16450 /* Pods_OneVPN.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		036EABCE32B9B9FB0CD81828 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9D571BB00DF551882A680351 /* Pods-OneVPN.debug.xcconfig */,
+				AECCAC5CB41A04596E3F9FFD /* Pods-OneVPN.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		115619101E7C2A720034004F /* Custom UI */ = {
+			isa = PBXGroup;
+			children = (
+				A97FD97B1E660F1D00A7EDFC /* GradientView.swift */,
+				A921348D1E65CA2100A91DE4 /* OneLabel.swift */,
+				A91E1AC11E6C8E90001BF9F7 /* OneTextField.swift */,
+			);
+			name = "Custom UI";
+			sourceTree = "<group>";
+		};
+		11B7A6111E41F1C500ECA9C0 = {
+			isa = PBXGroup;
+			children = (
+				11B7A61C1E41F1C500ECA9C0 /* OneVPN */,
+				11B7A61B1E41F1C500ECA9C0 /* Products */,
+				11B7A62F1E41F1D200ECA9C0 /* Frameworks */,
+				036EABCE32B9B9FB0CD81828 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		11B7A61B1E41F1C500ECA9C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				11B7A61A1E41F1C500ECA9C0 /* OneVPN.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		11B7A61C1E41F1C500ECA9C0 /* OneVPN */ = {
+			isa = PBXGroup;
+			children = (
+				11B7A6321E41F1D200ECA9C0 /* OneVPN.entitlements */,
+				A90014901E46836F00E5B2F1 /* Cells */,
+				A90014911E46837E00E5B2F1 /* Controllers */,
+				A90D9A4D1E574C9200615FE6 /* Models & Helpers */,
+				115619101E7C2A720034004F /* Custom UI */,
+				11B7A61D1E41F1C500ECA9C0 /* AppDelegate.swift */,
+				11270A991EF7D28000D80EC0 /* OneVPN-Bridging-Header.h */,
+				11B7A6211E41F1C500ECA9C0 /* Main.storyboard */,
+				115619151E7C32190034004F /* Login.storyboard */,
+				11B7A6241E41F1C500ECA9C0 /* Assets.xcassets */,
+				11B7A6261E41F1C500ECA9C0 /* LaunchScreen.storyboard */,
+				A92F75101E7F4088008BD7D1 /* Localizable.strings */,
+				11B7A6291E41F1C500ECA9C0 /* Info.plist */,
+			);
+			path = OneVPN;
+			sourceTree = "<group>";
+		};
+		11B7A62F1E41F1D200ECA9C0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				11B7A6301E41F1D200ECA9C0 /* NetworkExtension.framework */,
+				6CC915A3012A2FA51844A030 /* Pods_OneVPN.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A90014901E46836F00E5B2F1 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				A900148C1E46836400E5B2F1 /* ServerCell.swift */,
+				A900148D1E46836400E5B2F1 /* ServerCell.xib */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		A90014911E46837E00E5B2F1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A9F5E7051E5DC57C00503444 /* TransparentNavbarVC.swift */,
+				11B7A61F1E41F1C500ECA9C0 /* MainVC.swift */,
+				11B7A6331E42027A00ECA9C0 /* AccountVC.swift */,
+				11B7A6351E42028800ECA9C0 /* SettingsVC.swift */,
+				11B7A6371E42199600ECA9C0 /* ServersVC.swift */,
+				A9F5E70B1E5E032A00503444 /* Login */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		A90D9A4D1E574C9200615FE6 /* Models & Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				A90DAA111E54ADD800296569 /* Activity.swift */,
+				A90D9A481E55C4FD00615FE6 /* Settings.swift */,
+				11270A9B1EF80DA500D80EC0 /* Analytics.swift */,
+				A97E125F1E5F9FE900D14D8C /* Network.swift */,
+				A90014941E468A6900E5B2F1 /* API.swift */,
+				A90D9A4A1E55CA2A00615FE6 /* Alert.swift */,
+				A993C2F51E46392100A37822 /* Account.swift */,
+				A90014921E46889D00E5B2F1 /* Server.swift */,
+			);
+			name = "Models & Helpers";
+			sourceTree = "<group>";
+		};
+		A9F5E70B1E5E032A00503444 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				111F09F51E7FF6D9009B8A24 /* LockVC.xib */,
+				A97E12611E61AC2500D14D8C /* LockVC.swift */,
+				A9F5E7031E5C8FEA00503444 /* RegisterVC.swift */,
+				A91CD1C31E5C7B06001067C7 /* LoginVC.swift */,
+				A964841F1E64BF6300D2AD52 /* StartVC.swift */,
+				A9F5E7071E5DFDF400503444 /* HelloAutosecureVC.swift */,
+				A9F5E7091E5DFE1800503444 /* HelloAllowConfigVC.swift */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		11B7A6191E41F1C500ECA9C0 /* OneVPN */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11B7A62C1E41F1C500ECA9C0 /* Build configuration list for PBXNativeTarget "OneVPN" */;
+			buildPhases = (
+				747580535AEF6A2E452A3B09 /* [CP] Check Pods Manifest.lock */,
+				11B7A6161E41F1C500ECA9C0 /* Sources */,
+				11B7A6171E41F1C500ECA9C0 /* Frameworks */,
+				11B7A6181E41F1C500ECA9C0 /* Resources */,
+				91A45495E1B70AE656281D04 /* [CP] Embed Pods Frameworks */,
+				97563DE81F61BE835B7D895F /* [CP] Copy Pods Resources */,
+				A98D651D1E52C30200C153B7 /* Embed Frameworks */,
+				A97E125E1E5E097000D14D8C /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OneVPN;
+			productName = OneVPN;
+			productReference = 11B7A61A1E41F1C500ECA9C0 /* OneVPN.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		11B7A6121E41F1C500ECA9C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = OneVPN;
+				TargetAttributes = {
+					11B7A6191E41F1C500ECA9C0 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = DJ7L5686KL;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+							com.apple.VPNLite = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 11B7A6151E41F1C500ECA9C0 /* Build configuration list for PBXProject "OneVPN" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ru,
+			);
+			mainGroup = 11B7A6111E41F1C500ECA9C0;
+			productRefGroup = 11B7A61B1E41F1C500ECA9C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				11B7A6191E41F1C500ECA9C0 /* OneVPN */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		11B7A6181E41F1C500ECA9C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				115619131E7C32190034004F /* Login.storyboard in Resources */,
+				11B7A6281E41F1C500ECA9C0 /* LaunchScreen.storyboard in Resources */,
+				A900148F1E46836400E5B2F1 /* ServerCell.xib in Resources */,
+				111F09F61E7FF6D9009B8A24 /* LockVC.xib in Resources */,
+				11B7A6251E41F1C500ECA9C0 /* Assets.xcassets in Resources */,
+				11B7A6231E41F1C500ECA9C0 /* Main.storyboard in Resources */,
+				A92F750E1E7F4088008BD7D1 /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		747580535AEF6A2E452A3B09 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		91A45495E1B70AE656281D04 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OneVPN/Pods-OneVPN-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		97563DE81F61BE835B7D895F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OneVPN/Pods-OneVPN-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A97E125E1E5E097000D14D8C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" cbdcbba6b24ef28e0db79fe613fad57e96029d59 7490d61c176eabe9307a27598748ac8acf285c1909a2042633073dca6fcad0ff";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11B7A6161E41F1C500ECA9C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A90DAA121E54ADD800296569 /* Activity.swift in Sources */,
+				A9F5E7061E5DC57C00503444 /* TransparentNavbarVC.swift in Sources */,
+				11270A9C1EF80DA500D80EC0 /* Analytics.swift in Sources */,
+				A97FD97C1E660F1D00A7EDFC /* GradientView.swift in Sources */,
+				11B7A6201E41F1C500ECA9C0 /* MainVC.swift in Sources */,
+				A91CD1C41E5C7B06001067C7 /* LoginVC.swift in Sources */,
+				11B7A6381E42199600ECA9C0 /* ServersVC.swift in Sources */,
+				11B7A6361E42028800ECA9C0 /* SettingsVC.swift in Sources */,
+				11B7A61E1E41F1C500ECA9C0 /* AppDelegate.swift in Sources */,
+				11B7A6341E42027A00ECA9C0 /* AccountVC.swift in Sources */,
+				A90D9A4B1E55CA2A00615FE6 /* Alert.swift in Sources */,
+				A900148E1E46836400E5B2F1 /* ServerCell.swift in Sources */,
+				A97E12621E61AC2500D14D8C /* LockVC.swift in Sources */,
+				A90014931E46889E00E5B2F1 /* Server.swift in Sources */,
+				A90014951E468A6900E5B2F1 /* API.swift in Sources */,
+				A9F5E70A1E5DFE1800503444 /* HelloAllowConfigVC.swift in Sources */,
+				A9F5E7041E5C8FEA00503444 /* RegisterVC.swift in Sources */,
+				A96484201E64BF6300D2AD52 /* StartVC.swift in Sources */,
+				A97E12601E5F9FE900D14D8C /* Network.swift in Sources */,
+				A91E1AC21E6C8E90001BF9F7 /* OneTextField.swift in Sources */,
+				A921348E1E65CA2100A91DE4 /* OneLabel.swift in Sources */,
+				A90D9A491E55C4FD00615FE6 /* Settings.swift in Sources */,
+				A993C2F61E46392100A37822 /* Account.swift in Sources */,
+				A9F5E7081E5DFDF400503444 /* HelloAutosecureVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		115619151E7C32190034004F /* Login.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				115619141E7C32190034004F /* Base */,
+				115619171E7C32260034004F /* ru */,
+			);
+			name = Login.storyboard;
+			sourceTree = "<group>";
+		};
+		11B7A6211E41F1C500ECA9C0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11B7A6221E41F1C500ECA9C0 /* Base */,
+				115619111E7C32080034004F /* ru */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		11B7A6261E41F1C500ECA9C0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11B7A6271E41F1C500ECA9C0 /* Base */,
+				115619121E7C32080034004F /* ru */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A92F75101E7F4088008BD7D1 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A92F750F1E7F4088008BD7D1 /* ru */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		11B7A62A1E41F1C500ECA9C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		11B7A62B1E41F1C500ECA9C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		11B7A62D1E41F1C500ECA9C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D571BB00DF551882A680351 /* Pods-OneVPN.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = OneVPN/OneVPN.entitlements;
+				DEVELOPMENT_TEAM = DJ7L5686KL;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = OneVPN/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.one.vpn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "OneVPN/OneVPN-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		11B7A62E1E41F1C500ECA9C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AECCAC5CB41A04596E3F9FFD /* Pods-OneVPN.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = OneVPN/OneVPN.entitlements;
+				DEVELOPMENT_TEAM = DJ7L5686KL;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = OneVPN/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.one.vpn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "OneVPN/OneVPN-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11B7A6151E41F1C500ECA9C0 /* Build configuration list for PBXProject "OneVPN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11B7A62A1E41F1C500ECA9C0 /* Debug */,
+				11B7A62B1E41F1C500ECA9C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11B7A62C1E41F1C500ECA9C0 /* Build configuration list for PBXNativeTarget "OneVPN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11B7A62D1E41F1C500ECA9C0 /* Debug */,
+				11B7A62E1E41F1C500ECA9C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 11B7A6121E41F1C500ECA9C0 /* Project object */;
+}
